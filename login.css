@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 65px;
+    height: 4rem;
+    border-radius: 2rem;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+nav , a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 1rem;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.content h1:hover{
+    -webkit-text-stroke: 2px;
+    color: transparent;
+    text-shadow: 2px white;
+}
+
+.content button{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 35px;
+    /* border: 2px solid #fff; */
+    padding: 15px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+}
+.content a{
+    font-size: 25px;
+}
+
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+/* 
+@media screen (min-aspect-ratio: 16/9) {
+    .video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen (min-aspect-ratio 16/9){
+    .video{
+        width: auto;
+        height: 100%;
+    }
+} */
+/* body{
+    background-image: url('./assests/saiph-muhammad-CSs8aiN_LkI-unsplash.jpg');
+    background-  size:1380px 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+} */
+
+
+
+body{
+    min-height: 100vh;
+    /* background: ; */
+}
+
+/* a{
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+a:hover{
+    letter-spacing: 0.25em;
+}
+
+a::before{
+    content: ''; 
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+
+}
+
+a span{
+    position: relative;
+    z-index: 1;
+}
+
+a i{
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+a i::before{
+    content: '';
+    position: absolute;
+    border: 2px solid #fff;
+    width: 10px;
+    height:6px;
+    left: 80%;
+    top: -3.5px
+    background: #;
+    transition: 0.5s;
+} */
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    background: linear-gradient(-70deg, #eef85b 6%, #7aec8d 53%, #09e5c3 91%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    letter-spacing: 1px;
+    text-align: center; 
+}
+
+h1:hover{
+    background-size: 150%;
+    animation: ani 2s linear infinite;
+}
+
+@keyframes ani{
+    0%{
+        background-position: 0 0;
+    }
+
+    50%{
+        background-position: 400% 0;
+    }
+
+    100%{
+        background-position: 0 0;
+    }
+}
+

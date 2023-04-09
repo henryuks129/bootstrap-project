@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    background-image: url('./assests/saiph-muhammad-CSs8aiN_LkI-unsplash.jpg');
+    width: 100%;
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+
