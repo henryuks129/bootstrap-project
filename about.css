@@ -5,10 +5,46 @@
 }
 
 #home{
-    background-image: url('./assests/saiph-muhammad-CSs8aiN_LkI-unsplash.jpg');
+    background-image: url('./assests/pexels-ray-bilcliff-14433792.jpg');
     width: 100%;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     background-repeat: no-repeat;
+}
+
+video{
+    width: 0%;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    background: linear-gradient(-70deg, #eef85b 6%, #7aec8d 53%, #09e5c3 91%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    letter-spacing: 0.5px;
+}
+
+h1:hover{
+    background-size: 150%;
+    animation: ani 2s linear infinite;
+}
+
+
+
+@keyframes ani{
+    0%{
+        background-position: 0 0;
+    }
+
+    50%{
+        background-position: 400% 0;
+    }
+
+    100%{
+        background-position: 0 0;
+    }
 }
 
